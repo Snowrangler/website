@@ -1,16 +1,256 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SnoWrangler LLC</title>
-    <meta charset = "utf-8">
-    <meta name = "viewport" content="width=device-width, initial-scale=1"> <!--This makes the width the device width, initial-scale is the 'zoom' value-->
-    <meta name = "description" content =
-         "SnoWrangler LLC is a company built around Snowflake consultation and integration.">
-    <link rel="icon" type="image/x-icon" href="assets/snowrangler_small.ico"/>
-  </head>
-  <body>
-    <img src = "assets/snowrangler_big.png" alt="SnoWrangler LLC Logo" width="128" height="128">
-    <h1>SnoWrangler LLC</h1>
-    <p>Company is in the process of being founded. Please come back later or contact <a href="mailto:contact@snowrangler.com">contact@snowrangler.com</a></p>.
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SnoWrangler LLC</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <meta name="description" content="Keeping Snowflake Simple. Cheap and simple data ingestion for Snowflake.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top"><em>Sno</em><span>W</span>rangler</a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">About</a></li>
+                        <li><a href="#" class="scroll-link" data-id="project">Live Projects</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
+
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="text-content">
+                <h2><em>Sno</em><span>W</span><label>rangler</label> LLC</h2>
+                <p>Keeping Snowflake Simple.</p>
+                <div class="primary-white-button">
+                    <a href="#" class="scroll-link" data-id="portfolio">Let's Start</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="portfolio">
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="section-heading">
+                            <h4>Showcase</h4>
+                            <div class="line-dec"></div>
+                            <p>
+                                Here's a visual showcase of how we ingest different types of data into Snowflake.<br>
+                                To view diagrams relevant only to a specific project, simply
+                                click on the project from the options below.
+                            </p>
+                            <div class="filter-categories">
+                                <ul class="project-filter">
+                                    <li class="filter" data-filter="all"><span>Show All</span></li>
+                                    <li class="filter" data-filter="playercount"><span>Steam Playercount</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="projects-holder-3">
+                            <div class="projects-holder">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 project-item mix playercount project2 project3 project4">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/steam_player_big.png" data-lightbox="image-1"><img src="img/steam_player_small.png"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="project" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/service_icon_01.png" alt="">
+                        </div>
+                        <h4>Steam Playercount Database</h4>
+                        <div class="line-dec"></div>
+                        <p>Database of steam playercount ingested directly from the steam api.</p>
+                        <div class="primary-blue-button">
+                            <a href="https://app.snowflake.com/marketplace" data-id="portfolio">View On Snowflake Marketplace</a>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <div id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h4>Contact Us</h4>
+                        <div class="line-dec"></div>
+                        <p>Please contact us so we can figure out a price and timeframe that best fits your needs.</p>
+                        <div class="pop-button">
+                            <h4>Send us a message</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="pop">
+                        <span>✖</span>
+                        <form id="contact" action="https://getform.io/f/36ef3065-deae-4ca5-9da3-04e1fba177ab" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-md-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="btn">Send Message</button>
+                                  </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="logo">
+                        <a class="logo-ft scroll-top" href="#"><em>Sno</em><span>W</span>rangler</a>
+                        <p>Copyright &copy; 2023 SnoWrangler LLC</p>
+                    </div>
+                </div>
+                <!--Empty divs will be filled with customer data-->
+                <div class="col-md-4 col-sm-12">
+                    <div class="location">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="connect-us">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><em>Phone</em>: +1 402-382-2395</li>
+                            <li><em>Email</em>: contact@snowrangler.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
+</body>
 </html>
